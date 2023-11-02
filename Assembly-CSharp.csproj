@@ -75,7 +75,6 @@
     <Compile Include="Assets\Data\Scripts\StateMachine\States\StateEndGame.cs" />
     <Compile Include="Assets\Data\Scripts\StateMachine\StateManager.cs" />
     <Compile Include="Assets\Data\Scripts\MoveLogic\MoveChekers.cs" />
-    <Compile Include="Assets\Data\Scripts\DI\UntitledInstaller.cs" />
     <Compile Include="Assets\Data\Scripts\GridSystem\Interfaces\IGridController.cs" />
     <Compile Include="Assets\Data\Scripts\GridSystem\Interfaces\IGridInput.cs" />
     <Compile Include="Assets\Data\Scripts\Player\Player.cs" />

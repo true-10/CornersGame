@@ -16,7 +16,6 @@ namespace GridSystem
         private GridCell currentCell;
         private GridCell previousCell;
 
-
         public GridController(GridData gridData, Vector3Int sectorSize)
         {
             Grid = GridGenerator.Generate(gridData, sectorSize);
