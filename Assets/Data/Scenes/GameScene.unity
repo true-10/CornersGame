@@ -562,8 +562,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 269190908}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1536264988}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -956,15 +956,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 269190903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dccf6ea75f64a2544a77a784fe240b93, type: 3}
+  m_Script: {fileID: 11500000, guid: b5357b26ec6ed9f4c9be59803ade8dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dropDown: {fileID: 281145724}
   controlsText: {fileID: 100960102}
   gameManager: {fileID: 1536264988}
-  mType: 0
-  gameMode: 0
-  gameSettings: {fileID: 0}
 --- !u!1 &281145722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,9 +1717,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721129100}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: GotoStartMenu
+      - m_Target: {fileID: 1536264988}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: StartMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1936,9 +1933,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721129100}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 1536264988}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 666617125}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: ShowGameMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2828,7 +2837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434331227}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.32900286, y: 0.21826719, z: -0.07844692, w: 0.915403}
+  m_LocalRotation: {x: 0.32900286, y: 0.21826722, z: -0.078446925, w: 0.915403}
   m_LocalPosition: {x: -7.0746284, y: 12.9418955, z: -13.991909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2993,7 +3002,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435258460}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.32900286, y: 0.21826719, z: -0.07844692, w: 0.915403}
+  m_LocalRotation: {x: 0.32900286, y: 0.21826722, z: -0.078446925, w: 0.915403}
   m_LocalPosition: {x: -7.0746284, y: 12.9418955, z: -13.991909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
