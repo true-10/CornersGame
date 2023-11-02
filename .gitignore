@@ -1,0 +1,11 @@
+.vs/
+obj/
+Library/
+Assets/Plugins/Zenject/
+Temp/
+Logs/
+UserSettings/
+Assets/TextMesh Pro/
+ProjectSettings/
+Assets/Plugins/
+Assets/ExampleAssets/
